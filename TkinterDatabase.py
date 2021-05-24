@@ -24,8 +24,8 @@ def getUsername():
 # Information to be stored
 
 
-  Usernames = ["Zaid", "Aaliyah", "Lihle", "Thabo", "Zoe"]
-  Passwords = ["1000", "5500", "7700", "1234", "0621"]
+  Usernames = ["Nathan", "Uthmaan", "Tashwill", "Mujaid", "Abdul"]
+  Passwords = ["1000", "2000", "3000", "4000", "5000"]
   found = False
   for x1 in range(len(Usernames)):
     if lbl1_entry.get() == Usernames[x1] and lbl2_entry.get() == Passwords[x1]:
